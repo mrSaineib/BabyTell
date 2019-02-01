@@ -17,13 +17,13 @@ public abstract class BaseEntity {
 
     @Temporal(TemporalType.TIMESTAMP)
     @Getter
-    private Date createDate = new Date();
+    private Date createTime = new Date();
 
     @Temporal(TemporalType.TIMESTAMP)
     @Getter
-    private Date updateDate = new Date();
+    private Date updateTime = new Date();
 
     @PreUpdate
-    private void refreshUpdateDate() {  this.updateDate = new Date(); }
+    private void refreshUpdateDate() {  this.updateTime = new Date(); }
 
 }
