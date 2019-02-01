@@ -9,7 +9,7 @@ import pl.codesto.babytell.service.credentials.RoleDto;
 import pl.codesto.babytell.service.credentials.RoleService;
 
 @Controller
-@RequestMapping("role")
+@RequestMapping("/role")
 public class RoleController {
 
     @Autowired

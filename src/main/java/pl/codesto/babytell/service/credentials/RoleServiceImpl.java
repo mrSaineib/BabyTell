@@ -3,6 +3,7 @@ package pl.codesto.babytell.service.credentials;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.dao.EmptyResultDataAccessException;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import pl.codesto.babytell.domain.credentials.Role;
 import pl.codesto.babytell.repository.RoleRepository;
@@ -10,6 +11,7 @@ import pl.codesto.babytell.service.util.Mappable;
 
 import java.util.List;
 
+@Service
 @Transactional
 public class RoleServiceImpl implements RoleService {
 
