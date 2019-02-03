@@ -1,0 +1,115 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 1)), url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/3d733837-eae3-48b0-883b-955ce7172d8a/d7frxey-d51bdc42-b304-429d-8e32-f49d0abbd033.png/v1/fill/w_1280,h_640,q_80,strp/new_homeland_by_frankatt_d7frxey-fullview.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+.cover .cover-heading {
+    color: #333;
+}
+.cover .lead {
+    color: rgb(71, 71, 71);
+    margin: 1.5em;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(56, 56, 56, 0.5);
+}
+.mastfoot .inner a{
+    color: rgba(19, 19, 19, 0.5);
+}
+
