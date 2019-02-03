@@ -95,7 +95,7 @@
 
             <footer class="mastfoot mt-auto">
                 <div class="inner">
-                    <p>Made by <a href="http://codesto.pl/">Codesto</a> © 2019.</p>
+                    <p>Made by <a href="http://codesto.pl/">Codesto</a> &copy; 2019.</p>
                 </div>
             </footer>
         </div>
